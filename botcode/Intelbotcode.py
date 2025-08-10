@@ -11,9 +11,9 @@ TOKEN = 0
 
 DevelopmentBuild = False
 if DevelopmentBuild == True:
-    TOKEN = open("inteldevtoken.txt", "r")
+    TOKEN = open("devtoken.txt", "r")
 else:
-    TOKEN = open("inteltoken.txt", "r")
+    TOKEN = open("token.txt", "r")
 
 
 intents = discord.Intents.default()
@@ -45,9 +45,9 @@ intelbot has been reached v0.2.1, so pack up your ass, cause here are the new st
 
 Add_text = '''# Oh, so, do you want me on your own discord server?
 Well, the link below will help you add me, so you can execute the most stupid commands ever!
-> Click [HERE](https://discord.com/oauth2/authorize?client_id=1387606948027039906&permissions=8&integration_type=0&scope=bot) to add me :3'''
+> Click [HERE](OAUTH2 LINK HERE) to add me :3'''
 
-BannedAccounts = [1127245233873223710]
+BannedAccounts = []
 
 Unsupported = False
 
@@ -340,10 +340,11 @@ async def on_message(message):
 
 ## ts pmo''')
 
-        
 
 
 
-# reads the token on my desktop lol
+
+
+
 
 client.run(TOKEN.read())
