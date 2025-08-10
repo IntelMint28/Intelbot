@@ -20,3 +20,8 @@ Follow the installation wizard, and before installing make sure you add Python t
 Open your cmd or Powershell and execute:
 `python -m pip install -U discord.py`
 this will install the discord.py library.
+
+## MacOS
+### Step 1: Installing python
+
+Go to https://www.python.org/downloads/macos/ and click on 'Latest Python 3 Release' as seen below.
